@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datetime_printer_3"
+version = "1.0.0"
+description = "A sample Python project to print current date and time"
+license = "MIT"
+readme = "README.md"
+authors = ["Saeid Darvish <python@coderz.ir>"]
+homepage = "https://python.coderz.ir/"
+packages = [{include = "datetime_printer"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
